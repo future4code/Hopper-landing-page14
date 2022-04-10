@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 100vw;
+   background-image: url(./Img.banco/inicial.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center top;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15.8vh;
+    background-position: right center;
+    background-size: cover; 
+    background-color: rgba(0, 0, 0, .8);  
+    position: sticky;
+    top:0;
+}
+.logotipo{
+    width: 16vh;
+}
+
+.fundo {
+    display: flex;
+    display: block;
+    margin: 0px auto;
+}
+.primeira-secao h1{
+    text-align: center;
+    margin-top: 17vh;
+    color: #ff914d;
+    text-shadow: 2px 2px 2px #000;
+}
+.primeira-secao h2{
+    margin-top: 7vh;
+    color: #ff914d;
+    text-align: center;
+    margin-bottom: 50vh;
+}
+.botao{
+    color: #ff914d;
+}
+.criar{
+    color: black;
+    background-color: #ff914d;
+    border: 1px solid #ff914d;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 6px;
+}
+.acesso{
+    color: #ff914d;
+    border: 1px solid #ff914d;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 6px;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+}
+nav a{
+    font-size: 3.3vh;
+}
+.primeira-secao{
+ height: 100%;
+}
+.segunda-secao{
+    background-color: white;
+    max-height: 100vw;
+    display: flex;  
+}
+.segunda-secao img{
+ margin: 20vh;
+}
+.segunda-secao h1{
+    margin-top: 25vh;  
+    color: #ff914d;
+    font-size: 10vh;
+}
+.segunda-secao h3{
+    margin-top: 2vh;
+}
+.segunda-secao ul{
+    margin-top: 2vh;
+}
+.segunda-secao li{
+    margin-top: 1vh;
+}
+.terceira-secao{
+    background-color: white;
+    max-height: 90vw;
+    display: flex;  
+}
+.terceira-secao h1{
+    margin-top: 25vh;  
+    color:#ff914d;
+    font-size: 7vh;
+}
+.terceira-secao h2{
+    margin-top: 4vh;
+}
+footer{
+    height: 40vw;
+    background-color: white;
+}
+.icon-appleinc{
+    font-size: 20px;
+}
+.applez{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+.applez:hover{
+    color: #ff914d;
+    border-color: #ff914d;
+}
+.teste{
+    margin-top: 20px;
+    display: flex;
+    padding-left: 0;
+}
+.icon-googleplay{
+    font-size: 20px;
+}
+.gogglez{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    color: black; 
+}
+.gogglez:hover{
+    color: #ff914d;
+    border-color: #ff914d;
+}
+.rede p{
+    font-size: 30px;
+}
+.wrapper{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.bloco {
+    width: 33.3vh;
+    margin: 3px;
+    flex-direction: column;
+}
+.rede{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.engloba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+.testtres a{
+   font-size: 30px;
+   text-decoration: none;
+}
+
+
+
+
