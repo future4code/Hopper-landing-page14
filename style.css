@@ -98,6 +98,10 @@ nav a{
 .segunda-secao li{
     margin-top: 1vh;
 }
+.terceira-secao img{
+    width: 35vw;
+    margin: 15vh;
+}
 .terceira-secao{
     background-color: white;
     max-height: 90vw;
@@ -107,9 +111,11 @@ nav a{
     margin-top: 25vh;  
     color:#ff914d;
     font-size: 7vh;
+    margin-left: 10vh;
 }
 .terceira-secao h2{
     margin-top: 4vh;
+    margin-left: 10vh;
 }
 footer{
     height: 40vw;
