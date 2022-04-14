@@ -123,6 +123,7 @@ footer{
     padding: 15px;
     text-decoration: none;
     color: #000;
+    margin-right: 10px;
 }
 .applez:hover{
     color: #ff914d;
@@ -142,6 +143,7 @@ footer{
     padding: 15px;
     text-decoration: none;
     color: black; 
+    margin-left: 10px;
 }
 .gogglez:hover{
     color: #ff914d;
@@ -178,6 +180,8 @@ footer{
    font-size: 30px;
    text-decoration: none;
 }
+
+
 
 
 
