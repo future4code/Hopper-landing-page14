@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.VantagensContaDigital{
+    background-color: white;
+    max-height: 90vw;
+    display: flex;  
+}
+.VantagensContaDigital h1{
+    margin-top: 12vh;  
+    color:#ff914d;
+    font-size: 7vh;
+}
+.VantagensContaDigital h2{
+    margin-top: 4vh;
+    margin-bottom: 15%;
+}
+
+.VantagensContaDigital img {
+    height: 35%;
+    width: 35%;
+    margin-top: 10vh;
+    margin-left: 5% ;
+    margin-right: 5%;
+    margin-bottom: 15%;
+}
+
+.vantagenscartao{
+    background-color: white;
+    max-height: 90vw;
+    display: flex;  
+}
+.vantagenscartao h1{
+    margin-top: 8vh;  
+    color:#ff914d;
+    font-size: 7vh;
+}
+.vantagenscartao h2{
+    margin-top: 4vh;
+    margin-bottom: 15%;
+}
+
+.vantagenscartao img {
+    height: 35%;
+    width: 35%;
+    margin-top: 6vh;
+    margin-left: 5% ;
+    margin-right: 5%;
+    margin-bottom: 15%;
+}
