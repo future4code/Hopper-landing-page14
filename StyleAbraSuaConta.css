@@ -1,0 +1,63 @@
+.AbraSuaConta{
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.title{
+    color:#ff914d;
+    font-size: 1.65rem;
+}
+
+.text{
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.form .input-block{
+    margin-bottom: 12px;
+    color: #444;
+}
+
+.form .input-block label, .form .input-block input{
+    display: block;
+}
+
+
+.form .input-block input{
+    margin: 0 auto;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid #666;
+    outline: none !important;
+    color: #333;
+    transition: all 0.22s;
+}
+
+.form .input-block:hover input{
+    border-bottom-color: #f7b68d;
+}
+
+.form .input-block input:focus, .form .input-block input:active{
+    border-bottom-color: #ff914d;
+}
+
+.form button{
+    padding: 8px 12px;
+    background-color: transparent;
+    border: 1px solid  #ff914d;
+    color:#ff914d;
+    border-radius: 6px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.32s;
+    outline: none !important;
+
+    margin-top: 16px;
+}
+
+.form button:hover, .form button:focus{
+    background-color: #ff914d;
+    color: white;
+}
