@@ -5,23 +5,29 @@
 }
 
 .VantagensContaDigital{
+    width: 80%;
     background-color: white;
     max-height: 90vw;
-    display: flex;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
 }
 .VantagensContaDigital h1{
     margin-top: 12vh;  
     color:#ff914d;
-    font-size: 7vh;
+    font-size: 2rem;
+
 }
 .VantagensContaDigital h2{
     margin-top: 4vh;
     margin-bottom: 15%;
+    font-size: 1.1em;
+    font-weight: 200;
 }
 
 .VantagensContaDigital img {
     height: 35%;
-    width: 35%;
+    width: 90%;
     margin-top: 10vh;
     margin-left: 5% ;
     margin-right: 5%;
@@ -29,25 +35,66 @@
 }
 
 .vantagenscartao{
+    width: 80%;
     background-color: white;
     max-height: 90vw;
     display: flex;  
+    align-items: center;
+    justify-content: space-around;
 }
 .vantagenscartao h1{
     margin-top: 8vh;  
     color:#ff914d;
-    font-size: 7vh;
+    font-size: 2rem;
 }
 .vantagenscartao h2{
     margin-top: 4vh;
     margin-bottom: 15%;
+    font-size: 1.1em;
+    font-weight: 200;
 }
 
 .vantagenscartao img {
     height: 35%;
-    width: 35%;
+    width: 90%;
     margin-top: 6vh;
     margin-left: 5% ;
     margin-right: 5%;
     margin-bottom: 15%;
+}
+
+@media screen and (max-width: 880px){
+        
+.vantagenscartao{
+    flex-direction: column-reverse;
+    margin: 5vh auto
+}
+
+.VantagensContaDigital {
+    flex-direction: column-reverse;
+    margin: 5vh auto
+}
+
+.vantagenscartao img{
+    width: 100%;
+    margin: 0%;
+}
+
+.VantagensContaDigital img {
+    width: 100%;
+    margin: 0%;
+}
+
+.vantagenscartao h2{
+    margin: 0%;
+}
+.VantagensContaDigital h2{
+    margin: 0%;
+}
+.VantagensContaDigital h1 {
+    margin-top: 0%;
+}
+
+
+
 }
